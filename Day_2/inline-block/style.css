@@ -1,0 +1,34 @@
+.first_p{
+    display: inline-block;
+}
+
+.second_p{
+    display: inline-block;
+}
+
+.first_block{
+    display: inline-block;
+}
+.second_block{
+    display: inline-block;
+}
+
+.container{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    /* align using padding */
+    padding: 75px;
+    box-sizing: border-box;
+}
+
+.inner_div{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    /* align center using margin */
+    /* display: inline-block;
+    margin:75px; */
+    
+    
+}
