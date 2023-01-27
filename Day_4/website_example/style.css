@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/* This is the navbar */
+.navbar{
+    background-color: #0C4B33;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.topLeftOfHeader{
+    display: flex;
+}
+
+.topLeftOfHeader > img{
+    color: white;
+    margin-left: 40px;;
+}
+.topLeftOfHeader > p{
+    color: #44B78B;
+    margin-left: 20px;
+}
+
+ul{
+    color: white;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Below is the jumbo header */
+
+.jumboHeader{
+    background-color: #0E1117;
+    height: 400px;
+}
+
+.jumboHeader > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main_button{
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #44B78B;
+    border-radius: 5px;
+    border: none;
+    margin-left: 42%;
+    margin-top: 35px;
+}
+
+/* Main Content below */
+
+.Main_Content{
+    border-top: 1px solid white;
+    
+    height: 500px;
+    display: flex;
+}
+.Main_Content_Left{
+    background-color: #0E1117;
+    width: 65%;
+    height: 400px;
+    color: white;
+}
+
+.Main_Content_Left > h1,h3{
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+.Main_Content_Right{
+    background-color: #181D27;
+    height: 400px;
+    width: 35%;
+    text-align: center;
+}
+
+.download_button{
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #44B78B;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+}
